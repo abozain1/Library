@@ -21,10 +21,6 @@ const RangeSlider = () => {
   const dispatch = useDispatch();
   const handleChange = (event, newValue) => {
     setValue(newValue);
-
-    if (value[1] === 0) {
-      setValue([0, 0]);
-    }
     setstart(value[0]);
     setfinish(value[1]);
   };
