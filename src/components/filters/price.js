@@ -23,7 +23,7 @@ const RangeSlider = () => {
     setValue(newValue);
 
     if (value[1] === 0) {
-      setValue([null, null]);
+      setValue([0, 0]);
     }
     setstart(value[0]);
     setfinish(value[1]);
