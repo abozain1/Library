@@ -1,0 +1,31 @@
+.holder{
+    max-height: 55vh;
+    max-width: 20vw;
+    background-color: tomato;
+   
+    margin: 3vh 1vw 0vh 1vw;
+    border: 1px solid black;
+max-width: 30vw;
+}
+.holder p{
+    height: 10vh;
+    margin: 0vh 0vw 0vh 2vw;
+    color:black ;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5vh 0vw 0vh 2vw;
+width: 15vw;
+    height: 15vh;
+}
+.name{
+    font-weight: bolder;
+    color:rgb(0,155,229) ;
+}
+.color{
+    height: 3vw;
+    width: 3vw;
+}

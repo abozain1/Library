@@ -1,0 +1,40 @@
+.holder {
+    padding-right: 1vw;
+    display: flex;
+ 
+   }
+   
+   
+   
+   .check {
+     margin: 0vh 0vw 2vh 1vw;
+   
+     font-size: 1vw;
+   }
+   .checkmark {
+    height: 3vh;
+    width: 1.5vw;
+    background-color: gray;
+    margin: 0 0 0 1vw;
+    cursor: pointer;
+  }
+  
+  .checked {
+    background-color: rgb(0, 155, 229);
+  }
+  .btn{
+    background-color:  coral;
+    height: 6vh;
+    width: 6vw;
+    font-size: 1.5vw;
+    margin: 2vh 0vw 2vh 3vw;
+    border-radius: 40%;
+    padding-bottom: 5vh;
+    padding-left: 1vw;
+    text-align: center;
+  }
+  .btn:hover{
+    background-color:  teal;
+  color:white;
+    font-size: 1.5vw;
+  }

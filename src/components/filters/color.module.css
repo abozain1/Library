@@ -1,0 +1,62 @@
+.form {
+  
+  padding: 1vh 1vw 1vh 1vw;
+  margin: 2vh 1vw 0vh 1vw;
+  border: 1px solid rgba(145, 158, 171, 0.24);
+  box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px,
+    rgb(145 158 171 / 24%) 0px 16px 32px -4px;
+  font-size: 1.2vw;
+  height: 33vh;
+  width: 22vw;
+  background-color: rgb(249,245,243);
+
+}
+.headline{
+text-align: center;
+font-size: 1.5vw;
+  font-weight: bolder;
+ 
+  margin: 0;
+  
+}
+.input{
+  margin: 0vh 0vw 0vh 6vw;
+  width: 10vw;
+  height: 5vh;
+  font-size: 1.5vw;
+}
+.main {
+ 
+  background-color: rgb(249,245,243);
+  height: 20vh;
+  width: 20vw;
+ 
+ 
+margin: 0vh 0vw 0vh 0vw;
+  padding: 2vh 3vw 1vh 0vw;
+}
+.holder {
+ margin: 3vh 0vw 0vh 0vw;
+ 
+}
+
+
+.check {
+  margin: 2vh 0vw 2vh 0vw;
+
+  font-size: 1vw;
+  display: flex;
+}
+
+.checkmark {
+  height: 3vh;
+  width: 1.5vw;
+  background-color: gray;
+  margin: 0 0 0 1vw;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: rgb(0, 155, 229);
+}
+
