@@ -1,0 +1,39 @@
+body{
+  overflow-x: hidden;
+  
+}
+
+
+.headline{
+  margin:3vh 0vw 0vh 5vw;
+  display: flex;
+  font-size: 2vw;
+  font-weight: bold;
+  height: 15vh;
+}
+.headlineP{
+  margin: 0vh 0vw 0vh 15vw;
+}
+
+.bodyHolder{
+  display: flex;
+  width: 100vw;
+}
+.hello{
+  font-size: 3vw;
+}
+.hello svg:hover{
+  color: tomato;
+  cursor: pointer;
+}
+
+.logout svg {
+  margin:1vh 1vw 0vh 12vw;
+  color: black;
+  font-size: 5vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logout svg:hover {
+ color: teal;
+}

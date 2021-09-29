@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    height: 120vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0vh 2vw 5vh 30vw;
+    width:99vw ;
+    transition: 1s;
+}
+.main2{
+    display: flex;
+    height: 120vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0vh 1vw 5vh 2vw;
+    width:99vw ;
+    transition: 1s;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(244,219,212);
+    
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255,127,80);
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0,155,229);
+  }

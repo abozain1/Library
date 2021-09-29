@@ -1,0 +1,16 @@
+.holder{
+    display: flex;
+    width: 100vw;
+    height: 21vh;
+   font-size: 2vw;
+      background-color: teal;
+}
+.sec{
+    height: 20vh;
+    width: 20vw;
+    margin: 0vh 5vw 3vh 5vw;
+    background-color: tomato;
+    text-align: center;
+    padding-top: 3vh;
+    cursor: pointer;
+}
