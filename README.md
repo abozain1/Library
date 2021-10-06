@@ -4,7 +4,7 @@ fetched data was 5 categories and 250 item and u suuposed to click on a specific
 
 _ TECHNICAL
 
-_i used redux toolkit to handle the cross component state , fetching data from api , storing data , filtring data 
+_ i used redux toolkit to handle the cross component state , fetching data from api , storing data , filtring data 
 
 _ i created the 5 categories manually to not load the with unusefull fetch
 
