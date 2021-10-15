@@ -14,13 +14,13 @@
    .checkmark {
     height: 3vh;
     width: 1.5vw;
-    background-color: gray;
+    background-color: teal;
     margin: 0 0 0 1vw;
     cursor: pointer;
   }
   
   .checked {
-    background-color: rgb(0, 155, 229);
+    background-color: tomato;
   }
   .btn{
     background-color:  coral;

@@ -4,7 +4,7 @@ import Slider from "@mui/material/Slider";
 import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/cart-slice";
-
+import './price.css';
 import classes from "./price.module.css";
 
 function valuetext(value) {
@@ -20,13 +20,15 @@ const RangeSlider = () => {
   const [clear, setclear] = useState(false);
   const dispatch = useDispatch();
   const handleChange = (event, newValue) => {
+    setclear(false);
     setValue(newValue);
-
+    
     setstart(value[0]);
     setfinish(value[1]);
   };
-
+  
   const inputhandler = () => {
+    setclear(false);
     if (start) {
       from = JSON.parse(start);
     }
@@ -35,8 +37,10 @@ const RangeSlider = () => {
     }
     if (from < to && from !== null) {
       setValue([from, to]);
+      
     } else if (from > to && to !== null) {
       setValue([to, from]);
+      
     }
     if (from == null) {
       setValue([0, to]);
@@ -47,6 +51,7 @@ const RangeSlider = () => {
     if (!from && !to) {
       setValue([0, 0]);
     }
+   
   };
 
   const clearfilter = () => {

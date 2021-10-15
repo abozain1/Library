@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/cart-slice";
+import './rating.css'
 const BasicRating = () => {
   
   const [value, setValue] = useState(0);
